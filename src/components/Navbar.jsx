@@ -1,15 +1,14 @@
-import { Link } from "react-router-dom";
 import Logo from "../assets/Logo.svg";
 
 const navData = [
 	{
-		text: "info",
-		to: "#info",
+		text: "mission",
+		to: "#mission",
 		id: 1,
 	},
 	{
-		text: "mission",
-		to: "#mission",
+		text: "info",
+		to: "#info",
 		id: 2,
 	},
 	{
@@ -33,13 +32,13 @@ const Navbar = () => {
 			</div>
 			<div className="flex justify-center items-center gap-24 w-fit mx-auto absolute left-[50%] translate-x-[-50%] ">
 				{navData.map((item) => (
-					<Link
-						to={item.to}
+					<a
+						href={item.to}
 						key={item.id}
 						className="capitalize text-slate-500 hover:text-gray-900 transition-all font-semibold"
 					>
 						{item.text}
-					</Link>
+					</a>
 				))}
 			</div>
 		</div>

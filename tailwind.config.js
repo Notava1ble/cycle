@@ -10,6 +10,9 @@ export default {
 			backgroundImage: {
 				land: "url(./assets/image.png)",
 			},
+			colors: {
+				g: "#00B73E",
+			},
 		},
 	},
 	plugins: [],
