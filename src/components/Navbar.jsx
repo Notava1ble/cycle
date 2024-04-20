@@ -30,7 +30,7 @@ const Navbar = () => {
 				<img src={Logo} alt="logo" className="size-8" />
 				<p className="pl-4 font-roboto font-semibold text-gray-700">Recycle</p>
 			</div>
-			<div className="flex justify-center items-center gap-24 w-fit mx-auto absolute left-[50%] translate-x-[-50%] ">
+			<div className="hidden justify-center items-center gap-24 w-fit mx-auto absolute left-[50%] translate-x-[-50%] md:flex">
 				{navData.map((item) => (
 					<a
 						href={item.to}
