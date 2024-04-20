@@ -14,9 +14,10 @@ const Video = () => {
 				<iframe
 					className="w-[90%] h-auto aspect-video"
 					width="560"
-					src="https://www.youtube.com/embed/UdF3SvktiNU?si=_rdVLwIXo1hx_jK-&amp;controls=0"
+					src="https://www.youtube.com/embed/phof40D2lzc?si=L0FsDwxKZG5O0wRG"
 					title="Video"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowFullScreen
 				></iframe>
 			</div>
 			<hr />
