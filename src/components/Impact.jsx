@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Impact = () => {
 	return (
 		<div
@@ -12,9 +14,11 @@ const Impact = () => {
 				greener future.
 			</p>
 			<div className="flex justify-center items-center">
-				<button className="text-xl p-8 py-5 mt-2 lg:p-10 lg:py-6 bg-gray-600 rounded-full font-poppins lg:text-2xl font-semibold cart-shadow">
-					Check It Out
-				</button>
+				<Link to="/cycle/works">
+					<button className="text-xl p-8 py-5 mt-2 lg:p-10 lg:py-6 bg-gray-600 rounded-full font-poppins lg:text-2xl font-semibold cart-shadow">
+						Check It Out
+					</button>
+				</Link>
 			</div>
 			<div className="mt-16 hidden lg:flex gap-6 w-full">
 				<div className="bg-gray-400 w-[65%] aspect-video" />

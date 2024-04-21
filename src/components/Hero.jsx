@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import { BsArrowRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
 	return (
@@ -9,9 +10,11 @@ const Hero = () => {
 				<button className="mt-20 px-4 py-2 border-2 border-black shadow-lg shadow-gray-400/50 rounded-full hidden md:block	">
 					<div className="w-fit">
 						Our school has done various projects to help the world.{" "}
-						<span className="text-blue-600">
-							Read More <BsArrowRight className="inline ml-1" />
-						</span>
+						<Link to="/cycle/works">
+							<span className="text-blue-600">
+								Read More <BsArrowRight className="inline ml-1" />
+							</span>
+						</Link>
 					</div>
 				</button>
 				<div className="flex flex-col sm:w-[70%] md:w-[50%] mx-auto mt-10 justify-center items-center">
