@@ -14,7 +14,7 @@ const Video = () => {
 				<iframe
 					className="w-[90%] h-auto aspect-video"
 					width="560"
-					src="https://www.youtube.com/embed/phof40D2lzc?si=L0FsDwxKZG5O0wRG"
+					src="https://www.youtube.com/embed/NckPYMnpT4k?si=ipXQNPIUI0YGOim1"
 					title="Video"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 					allowFullScreen
