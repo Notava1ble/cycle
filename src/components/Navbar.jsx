@@ -16,11 +16,6 @@ const navData = [
 		to: "#works",
 		id: 3,
 	},
-	{
-		text: "other",
-		to: "#other",
-		id: 4,
-	},
 ];
 
 const Navbar = () => {
